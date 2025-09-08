@@ -1,0 +1,19 @@
+Topics to Cover 
+ 1. Syntax & Selectors
+ 2. Comment and Errors
+ 3, Color and Backgrounds 
+ 4. Borders , Margin and Padding 
+ 5. Height & Width , Box Model 
+ 6. Outline, Text, Fonts 
+ 7. Icons , Links and Lists 
+ 8. Tables, Display, Position, Overflow, float 
+ 9. Align, Combinators, Opacity 
+ 10. Navigation, Dropdown , Image Gallary
+ 11. Attr section, Forms, counters, !important
+ 12. Rounded Corner, Border Image, Gradiant, Shadow
+ 13. Test Effects, Tranistion, animation, tooltips
+ 14. Image styling, centering , filters,shapes 
+ 15. Object fit, position, masking, button, pagination
+ 16. Multiple Column, @property, box sizing,media query
+ 17. Flex and Grids 
+ 18. Responsive
