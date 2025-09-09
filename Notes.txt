@@ -1,0 +1,8 @@
+color - to change font color 
+Background - 
+    background-color 
+    background-image
+    background-repeat
+    background-attachment
+    background-position
+    background
