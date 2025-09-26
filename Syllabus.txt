@@ -11,7 +11,7 @@ Topics to Cover
  10. Navigation, Dropdown , Image Gallary
  11. Attr section, Forms, counters, !important
  12. Rounded Corner, Border Image, Gradiant, Shadow
- 13. Test Effects, Tranistion, animation, tooltips
+ 13. Text Effects, Tranistion, animation, tooltips
  14. Image styling, centering , filters,shapes 
  15. Object fit, position, masking, button, pagination
  16. Multiple Column, @property, box sizing,media query
