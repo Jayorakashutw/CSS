@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter New Example</title>
+    <style>
+        ol.custom-counter {
+            counter-reset: counterdata; /* Initialize the counter */
+            padding-left: 20px;
+            list-style: none; /* Remove default list styling */
+            font-family: sans-serif;
+        }
+        ol.custom-counter li::before {
+            counter-increment: counterdata; /* Increment the counter */
+            content: counter(counterdata) ". "; /* Display the counter value */
+            display: inline-block;
+            width: 40px; /* Increased width for better alignment */
+            text-align: right; /* Align numbers to the right */
+            margin-right: 10px; /* Space between number and text */
+            color: #02871a; /* Color for the counter */
+            font-weight: bold; /* Make the counter bold */
+        }
+        ol.custom-counter li {
+            padding: 6px 8px;
+            margin: 4px 0px;
+            background: #f4f8f4;
+            border-radius: 4px;
+            transition: background 0.2s;
+        }
+        ol.custom-counter li:hover {
+            background: #e0f7e9;
+        }
+    </style>
+</head>
+<body>
+    <h2>Top Task</h2>
+    <ol class="custom-counter">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>NodeJS</li>
+    </ol>
+</body>
+</html>
